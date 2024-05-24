@@ -23,13 +23,13 @@ spring:
 springdoc:
   api-docs:
     enabled: true
-    path: /api/v1/iotdata/v3/api-docs
+    path: /api/v1/iot-data/v3/api-docs
   swagger-ui:
     enabled: true
-    path: /api/v1/iotdata/doc/swagger-ui.html
+    path: /api/v1/iot-data/doc/swagger-ui.html
 
   packages-to-scan: com.digitalholics
-  paths-to-match: /api/v1/iotdata/**
+  paths-to-match: /api/v1/iot-data/**
   
 eureka:
   client:
